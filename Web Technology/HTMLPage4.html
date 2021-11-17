@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="html4.js">
+        
+        
+    </script>
+    <meta charset="utf-8" />
+    <title>List, Tables and Form</title>
+    <link href="htmlpage4.css" type="text/css" rel="stylesheet" />
+    <style>
+        h2{
+            background-color:crimson;
+            color:black;
+            font-family:'DejaVu Sans Mono';
+            margin:0px;
+            text-align:center;
+        }
+        h3{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h5{
+            font-family:'Times New Roman', Times, serif;
+            color:olive;
+        }
+        ol{
+            font-family:'Nirmala UI';
+            color:mediumvioletred;
+        }
+        ul{
+            font-family:'Yu Gothic';
+            color:chocolate;
+        }
+        dl{
+            font-family:'Microsoft YaHei UI';
+            color:goldenrod;
+        }
+        body{
+            padding-left:10%;
+            background-color:aquamarine;
+            padding-right :10%;
+     
+        }
+        table,th,td{
+            border:2px solid black;
+        }
+        #even{
+            font-family:Impact;
+            font-size:14px;
+            color:darksalmon;
+        }
+        #odd{
+            font-family:'Javanese Text';
+            font-size:14px;
+            color:mediumvioletred;
+        }
+    </style>
+</head>
+<body>
+    <div class="content" style="background-color:cadetblue;">
+        <h2>Types of Lists</h2>
+        <hr />
+        <h3>Ordered List</h3>
+        <h5>List of Mobile Brands:</h5>
+
+        <ol>
+            <li>Apple</li>
+            <li>One plus</li>
+            <li>Motorola</li>
+            <li>Nokia</li>
+        </ol>
+        <h3>Unordered List</h3>
+        <h5>List of flowers:</h5>
+
+        <ul>
+            <li>Rose</li>
+            <li>Daisy</li>
+            <li>Marigold</li>
+            <li>Tulip</li>
+        </ul>
+        <h3>Description List</h3>
+        <h5>List of fruits:</h5>
+
+        <dl>
+            <dt>Apricot:</dt>
+            <dd>Country of origin China</dd>
+            <dt>Mango:</dt>
+            <dd>Country of origin India</dd>
+            <dt>Date:</dt>
+            <dd>Country of origin Africa</dd>
+        </dl>
+
+        <hr />
+        <h2>Table</h2>
+        <hr />
+        <h3>Content Learnt</h3>
+        <table>
+            <tr>
+                <th style="font-family:Verdana;font-synthesis:weight;font-style:italic;background-color:orangered">Software Engineering</th>
+                <th style="font-family: Verdana; font-synthesis: weight; font-style: italic; background-color: orangered">HTML</th>
+            </tr>
+            <tr id="odd">
+                <td>SDLC</td>
+                <td>Forms</td>
+            </tr>
+            <tr id="even">
+                <td>Team Roles</td>
+                <td>iframes</td>
+            </tr>
+            <tr id="odd">
+                <td>SRS</td>
+                <td>Tables</td>
+            </tr>
+            <tr id="even">
+                <td>Team Roles,</td>
+                <td>List</td>
+            </tr>
+        </table>
+        <hr />
+        <h2>Form</h2>
+        <hr />
+        <form style="text-align:center ">
+            <fieldset>
+                <header style="background-color: black; color: whitesmoke"> Heading</header>
+                <legend>Registration form CBT training</legend>
+                <br />
+                <label>Employee ID :</label>
+                <input type="number" /><br /><br />
+                <label>Employee Name :</label>
+                <input type="text" /><br /><br />
+                <label>Contact No :</label>
+                <input type="number" /><br /><br />
+                <label>Email :</label>
+                <input type="email" /><br /><br />
+                <label>Technology :</label>
+                <input type="radio" name="exe" value="1" />Front End Technology
+                <input type="radio" name="exe" value="2" />Back End Technology
+                <br /><br />
+                <label>Course :</label>
+                <select>
+                    <optgroup label="Front End Technologies">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </optgroup>
+                    <optgroup label="Back End Technologies">
+                        <option value="servlet">Servlet</option>
+                        <option value="jsp">JSP</option>
+                    </optgroup>
+                </select>
+                <br /><br />
+                <label>Prfered Date :</label>
+                <input type="date" />
+                <br /><br />
+                <label>Start Date:</label>
+                <input type="date" />
+                <label>End Date :</label>
+                <input type="date" />
+                <br /><br />
+                <label>Other Facilities :</label>
+                <textarea cols="25" rows="5"></textarea>
+                <br /><br />
+                <label>Virtual Lab :</label>
+                <input type="radio" name="vlab" value="1" />Useful
+                <input type="radio" name="vlab" value="2" />Not Useful
+                <br /><br />
+                <label>Online Quiz :</label>
+                <input type="radio" name="quiz" value="1" />Passed
+                <input type="radio" name="quiz" value="2" />Failed
+                <br /><br />
+                <label>Online Instructor (to clarify doubts) :</label>
+                <input type="text" /><br /><br />
+                <input type="submit" value="Submit" />
+                <br />
+                <footer style="background-color:black;color:whitesmoke">Footer</footer>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

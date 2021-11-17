@@ -1,0 +1,24 @@
+﻿body {
+}
+form{
+    width:80%;
+    margin:2px auto;
+}
+label,input{
+    display:inline-block;
+}
+label{
+    width:30%;
+    text-align:right;
+}
+label+input{
+    width:30%;
+    margin:0 30% 0 4%;
+}
+label + select {
+    width: 30%;
+    margin: 0 30% 0 4%;
+    }
+    
+
+
