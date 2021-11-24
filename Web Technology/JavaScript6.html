@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function emp(id, name, salary) {
+            this.id = id;
+            this.name = name;
+            this.salary = salary;
+            this.changesalary = changesalary;
+            function changesalary(othersalary) {
+                this.salary= othersalary
+            }
+        }
+        e = new emp(102, "sjkk", 1000);
+        document.write(e.id + " " + e.name + " " + e.salary);
+        e.changesalary(450);
+        document.write("<br>" +e.id + " " + e.name + " " + e.salary);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

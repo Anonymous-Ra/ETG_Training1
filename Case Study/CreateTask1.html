@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Create Task</title>
+    <link rel="stylesheet" href="Stylehome1.css">
+
+</head>
+<body>
+    <header>
+        <h1><span> Admin Portal </span></h1>
+
+    </header>
+    <div class="flex">
+        <nav>
+            <a class="logo" href="Home1.html">
+                <h2>Menu</h2>
+
+            </a>
+
+            <a href="Home1.html">
+                <i class="fa fa-home fa-lg"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="CreateTask1.html">
+                <i class="fa fa-user fa-lg"></i>
+                <span>Create Task</span>
+            </a>
+
+            <a href="AssignTask1.html">
+                <i class="fa fa-envelope-o fa-lg"></i>
+                <span>Assign Task</span>
+            </a>
+
+            <a href="MonitorTask1.html">
+                <i class="fa fa-html5 fa-lg"></i>
+                <span>Monitor Task</span>
+            </a>
+
+        </nav>
+        <div class="contents">
+            <h1>Admin Portal</h1>
+            <p>This is the home page of the admin portal. The navigation bar can toggle between create, assign, and monitor task.</p>
+
+            
+                <h3 style="text-align:center;"> Create a Task</h3>
+                <div class="form">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Task ID : </td>
+                                <td><input type="number" placeholder="Enter Task ID" name="taskId" /></td>
+                            </tr>
+                            <tr>
+                                <td>Name : </td>
+                                <td><input type="text" placeholder="Enter Name" name="name" /></td>
+                            </tr>
+                            <tr>
+                                <td>Descrition : </td>
+                                <td><textarea type="text" placeholder="Enter Description" name="description" /></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Status :</td>
+                                <td>
+                                    <select name="status">
+                                        <option value=""></option>
+                                        <option value="Close">Close</option>
+                                        <option value="InProgress">In Progress</option>
+                                        <option value="Cancelled">Cancelled</option>
+                                        <option value="OnHold">On Hold</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Task Priority : </td>
+                                <td>
+                                    <input type="radio" name="high" />High
+                                    <input type="radio" name="medium" />Medium
+                                    <input type="radio" name="low" />Low
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Notes : </td>
+                                <td><input type="text" name="notes" placeholder="Enter Notes" /> </td>
+                            </tr>
+                            <tr>
+                                <td>Bookmark : </td>
+                                <td><input type="text" name="bookmark" placeholder="Bookmark" /> </td>
+                            </tr>
+                            <tr>
+                                <td>Owner ID : </td>
+                                <td><input type="number" placeholder="Enter Owner ID" name="ownerId" /></td>
+                            </tr>
+                            <tr>
+                                <td>Creator ID : </td>
+                                <td><input type="number" placeholder="Enter Creator ID" name="creatorId" /></td>
+                            </tr>
+                            <tr>
+                                <td>Created On : </td>
+                                <td><input type="date" placeholder="Select Date" name="createdOn" </td>
+                            </tr>
+                            <tr>
+                                <td>Modified On : </td>
+                                <td><input type="date" placeholder="Select Date" name="modifiedOn" </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input style="margin-left:20px;margin-right:5px;margin-top:5px" type="button" value="Create" />
+                                    <input style="margin-left:40px;margin-right:5px; margin-top:5px" type="reset" value="Reset" />
+
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            
+           
+        </div>
+    </div>
+    <footer>
+        <div class="left">
+            Admin Portal
+        </div>
+        <div class="right">
+
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+    </footer>
+</body>
+</html>

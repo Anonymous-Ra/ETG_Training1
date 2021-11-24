@@ -1,0 +1,76 @@
+﻿<html>
+<head>
+    <title>
+        Registration
+    </title>
+    <script >
+        
+    </script>
+</head>
+<body>
+    <form name="myForm" onsubmit="return(validate());">
+        <label for="id">Enter your name:</label><br>
+        <input type="text" id="id" name="name"  ><br><br>
+        <label for="id1">Empid</label><br>
+        <input type="int" id="id1"  ><br><br>
+        <label for="id2">D.O.B:</label><br>
+        <input type="date" id="id2" ><br><br>
+        <label for="id3" >Mobile no:</label><br>
+        <input type="tel" name="mob" id="id3"  ><br><br>
+        <label for="id4">Address:</label><br>
+        <input type="text" id="id4" ><br><br>
+        <label>course:</label><br>
+        <input type="radio" id="id5" name="course" value="B.E">
+        <label for="id5">B.E</label><br>
+        <input type="radio" id="id6" name="course" value="B.A">
+        <label for="id6">B.A</label><br>
+        <input type="radio" id="id7" name="course" value="B.sc">
+        <label for="id7">B.sc</label><br>
+        <button type="submit" onclick="myfunction()" id="1">submit</button>
+
+    </form>
+    <script>
+        function validate() {
+            if (document.myForm.name.value == "") {
+                alert("Enter a name.");
+                document.myForm.name.focus();
+                
+            }
+            var pattern = /^[0-9]{9}$/;
+            if (document.myForm.name.value.match(pattern)) {
+                
+                return true;
+            }
+            else {
+                alert("It is not valid mobile number");
+                return false;
+            }
+        }
+        function myfunction() {
+
+            if (document.getElementById('id5').checked) {
+                document.writeln("<br>Available course:");
+                document.writeln("<br>computer science");
+                document.writeln("<br>Electeical");
+                
+            }
+            else if (document.getElementById('id6').checked) {
+                document.writeln("<br>Available course:");
+                document.writeln("<br>English");
+            }
+            else if (document.getElementById('id7').checked) {
+                document.writeln("<br>Available course:");
+                document.writeln("<br>Computer science");
+                document.writeln("<br>Maths");
+                document.writeln("<br>biology");
+            }
+        }
+        /*function errorHandler() {
+            alert("Error has occured");
+        }
+        window.onerror(errorHandler());*/
+    </script>
+</body>
+
+
+</html>

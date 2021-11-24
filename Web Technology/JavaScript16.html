@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Mul Table</title>
+    <script type="text/javascript">
+    var rows = prompt("How many rows for your multiplication table?");
+    var cols = prompt("How many columns for your multiplication table?");
+
+    createTable(rows, cols);
+    function createTable(rows, cols)
+    {
+      var j=1;
+      var output ="<table border='1'>";
+      for(var i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + i*j + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

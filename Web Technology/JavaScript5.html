@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //Object literal
+        /*emp = { id: 363, name: "ABC", salary: 10000 };*/
+
+        //Instance of an object
+        /*var emp = new Object();
+        emp.id = 007;
+        emp.name = "XYZ";
+        emp.salary = 200000;*/
+
+        //document.write(emp.id + " " + emp.name + " " + emp.salary);
+
+        //Object constructor
+        function emp(id, name, salary) {
+            this.id = id;
+            this.name = name;
+            this.salary = salary;
+        }
+        e = new emp(102,"sjkk",1000);
+        document.write(e.id + " " + e.name + " " + e.salary);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

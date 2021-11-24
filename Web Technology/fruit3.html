@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Calculate() {
+            var apple = parseInt(prompt("Enter the Quantity of Apple to purchase :"));
+            var mango = parseInt(prompt("Enter the Quantity of Mango to purchase :"));
+            var orange = parseInt(prompt("Enter the Quantity of Orange to purchase :"));
+            var app = apple * 100;
+            var man = mango * 220;
+            var oran = orange * 80;
+            var result = app + man + oran;
+            alert("Your total Bill is amount : Rs." + result);
+        }
+    </script>
+    
+</head>
+<body>
+    <header style="font-size: 40px; font-family: Arial; color: red; background-color: lightsalmon">Fruit Market</header>
+
+    <h1>Fruits Available</h1>
+    <form onsubmit="Calculate()" style="font-family: 'Courier New';">
+        <table>
+            <tr>
+                <td><img src="apple.jpg" width="225" height="225" alt="Apple" /></td>
+
+                <td><img src="mango.jpg" width="225" height="225" alt="Mango" /></td>
+
+                <td><img src="orange.jpg" width="225" height="225" alt="Orange" /></td>
+            </tr>
+            <tr>
+                <td>Price of Apple : Rs.100<br />Quantity Available : 12Kgs</td>
+
+                <td>Price of Mango : Rs.220<br />Quantity Available : 8Kgs</td>
+
+                <td>Price of Orange : Rs.80<br />Quantity Available : 14Kgs</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><button type="submit" >Purchase</button></td>
+            </tr>
+        </table>
+
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /><br /><br />
+    <footer style=" color:black; background-color: lightsalmon">
+        <b>Contact : </b>
+        <br />
+        Mobile Number : 9863792987
+        <br />
+        E-mail : fruit@gmail.com
+    </footer>
+</body>
+</html>

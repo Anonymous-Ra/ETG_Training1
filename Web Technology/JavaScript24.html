@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>DOM</title>
+</head>
+<body>
+    <p>Hi</p>
+    <p>Hello</p>
+    <p>Welcome</p>
+    <p>fourth</p>
+    <p>fifth</p>
+    <button onclick="change()">Change</button>
+    <script>
+        function change() {
+            var para = document.getElementsByTagName("p");
+            document.write(para[0].innerHTML + "<br>" + para[1].innerHTML + "<br>" + para[4].innerHTML);
+        }
+    </script>
+</body>
+</html>
