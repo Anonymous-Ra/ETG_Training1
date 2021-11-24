@@ -1,0 +1,62 @@
+SELEct DISTINCT *
+from jobhist join emp
+ON jobhist.empno=emp.EMPNO
+
+
+SELECT
+EMP.EMPNO,EMP.ENAME,JOBHIST.STARTDATE,JOBHIST.ENDDATE
+FROM EMP JOIN JOBHIST
+ON JOBHIST.DEPTNO=EMP.DEPTNO
+EXCEPT
+SELECT
+EMP.EMPNO,EMP.ENAME,JOBHIST.STARTDATE,JOBHIST.ENDDATE
+FROM EMP JOIN JOBHIST
+ON JOBHIST.DEPTNO=EMP.DEPTNO
+WHERE JOBHIST.ENDDATE IS NULL
+ORDER BY JOBHIST.STARTDATE DESC;
+
+SELECT
+EMP.EMPNO,EMP.COMM
+FROM EMP JOIN JOBHIST
+ON JOBHIST.DEPTNO=EMP.DEPTNO
+WHERE JOBHIST.COMM IS  NULL
+UNION 
+SELECT
+EMP.EMPNO,EMP.COMM
+FROM EMP JOIN JOBHIST
+ON JOBHIST.DEPTNO=EMP.DEPTNO
+WHERE JOBHIST.COMM IS  NULL
+ORDER BY EMP.EMPNO DESC;
+
+select empno,ename,comm
+from emp
+where emp.comm !=0
+intersect
+select jobhist.empno,emp.ename,emp.comm
+from jobhist,emp
+where enddate is not null and jobhist.comm !=0;
+
+SELECT EMPNO,JOB
+FROM EMP
+WHERE JOB like 'SALES%'
+UNION
+SELECT EMPNO,JOB
+FROM JOBHIST
+WHERE JOB like 'SALES%'
+
+
+SELECT E.ENAME , E.JOB , J.job
+FROM EMP  E JOIN JOBHIST J
+ON E.EMPNO=J.empno
+
+select e.ename,e.empno,d.deptno,d.dname
+from dept d
+full outer join
+emp e
+on(d.deptno=e.deptno)
+where d.deptno in (select d.deptno
+FROM dept d
+UNION
+SELECT e.deptno
+FROM emp e)
+

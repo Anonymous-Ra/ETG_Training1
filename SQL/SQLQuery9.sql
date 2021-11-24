@@ -41,4 +41,7 @@ SET petType = 'Doggo'
 WHERE petId = '246';
 
 SELECT DISTINCT *
-FROM petDetails
+FROM petDetails;
+
+ALTER TABLE petDetails
+ALTER COLUMN   petId int NOT NULL;
