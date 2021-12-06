@@ -1,0 +1,19 @@
+//SQL Practical
+
+//Question 1
+SELECT c.CategoryName, p.ProductName
+FROM Categories c , Products p
+WHERE c.CategoryID = p.CategoryID
+AND p.SupplierID = (SELECT SupplierID
+		    FROM Suppliers
+                    WHERE SupplierName Like "Specialty%")
+;
+
+
+//Question 2
+
+SELECT s.SupplierName, COUNT(p.ProductName) AS "Number of Products sold"
+FROM Suppliers s, Products p
+Where s.SupplierID = p.SupplierID
+GROUP BY s.SupplierName
+;

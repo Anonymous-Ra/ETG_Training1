@@ -1,0 +1,7 @@
+package com.sonata.MyException;
+
+public class MyException extends Exception {
+	public MyException(String s){
+		super(s);
+	}
+}
