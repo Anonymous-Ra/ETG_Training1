@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MvcTask.Models.MyTask>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<h2>@TempData["time"]</h2>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<partial name="_ListTasks"/>

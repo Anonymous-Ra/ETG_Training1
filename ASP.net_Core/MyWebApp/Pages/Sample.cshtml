@@ -1,0 +1,116 @@
+﻿@page
+@model MyWebApp.Pages.SampleModel
+@{
+}
+<p>Hello</p>
+@{
+    string message = "foreignObject example with Scalable Vector Graphics (SVG)";
+}
+
+<svg width="250" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" rx="10" ry="10" width="250" height="300" stroke="black"
+          fill="none" />
+    <foreignObject x="20" y="20" width="160" height="200">
+        <p>@message</p>
+        <p>@DateTime.Now</p>
+        <span>Is Leap Year?</span>
+        <p>@DateTime.IsLeapYear(2016)</p>
+    </foreignObject>
+</svg>
+
+<p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+@{
+    var joe = new Person { Name = "Joe", Age = 33 };
+}
+<p>Name@(joe.Name)</p>
+<p>Age@(joe.Age)</p>
+
+@("<span>Hello World</span>")
+<br />
+@Html.Raw("<span>Hello World</span>")
+
+@{
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King, Jr.");
+}
+@{ String[] People = { "A", "B", "C", "D" };}
+@for (var i = 0; i < People.Length; i++)
+{
+    var person = People[i];
+    <text>Name: @person</text>
+    <br />
+}
+@{ int value = 87680;}
+@if (value % 2 == 0)
+{
+    <p>The value was even.</p>
+}
+@if (value % 2 == 0)
+{
+    <p>The value was even.</p>
+}
+else if (value >= 1337)
+{
+    <p>The value is large.</p>
+}
+else
+{
+    <p>The value is odd and small.</p>
+}
+@switch (value)
+{
+    case 1:
+        <p>The value is 1!</p>
+        break;
+    case 1337:
+        <p>Your number is 1337!</p>
+        break;
+    default:
+        <p>Your number wasn't 1 or 1337.</p>
+        break;
+}
+
+@{
+    var people = new Person[]
+    {
+          new Person{Name="Weston", Age=33 },
+          new Person{Name="Johnathon", Age=41 }
+
+                                    };
+}
+@for (var i = 0; i < people.Length; i++)
+{
+    var person = people[i];
+    <p>Name: @person.Name</p>
+    <p>Age: @person.Age</p>
+}
+
+@foreach (var person in people)
+{
+    <p>Name: @person.Name</p>
+    <p>Age: @person.Age</p>
+}
+@{ var j = 0; }
+@while (j < people.Length)
+{
+    var person = people[j];
+    <p>Name: @person.Name</p>
+    <p>Age: @person.Age</p>
+
+    j++;
+}
+
+
+@using (Html.BeginForm())
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+        <button>Register</button>
+    </div>
+}

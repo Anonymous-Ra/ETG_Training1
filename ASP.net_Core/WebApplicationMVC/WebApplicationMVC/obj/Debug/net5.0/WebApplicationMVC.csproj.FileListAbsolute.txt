@@ -1,0 +1,84 @@
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\appsettings.Development.json
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\appsettings.json
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.exe
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.deps.json
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.runtimeconfig.json
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.runtimeconfig.dev.json
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.dll
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\ref\WebApplicationMVC.dll
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.pdb
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.Views.dll
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.Views.pdb
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.AssemblyReference.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.AssemblyInfoInputs.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.AssemblyInfo.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.CoreCompileInputs.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorAssemblyInfo.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorAssemblyInfo.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\staticwebassets\WebApplicationMVC.StaticWebAssets.Manifest.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\staticwebassets\WebApplicationMVC.StaticWebAssets.xml
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\scopedcss\bundle\WebApplicationMVC.styles.css
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.TagHelpers.input.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.TagHelpers.output.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorCoreGenerate.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorTargetAssemblyInfo.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorTargetAssemblyInfo.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.Views.pdb
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.dll
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\ref\WebApplicationMVC.dll
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.pdb
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.genruntimeconfig.cache
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.CopyComplete
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+D:\ETG_training1\ASP .net Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\appsettings.Development.json
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\appsettings.json
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.exe
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.deps.json
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.runtimeconfig.json
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.runtimeconfig.dev.json
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.dll
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\ref\WebApplicationMVC.dll
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.pdb
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.Views.dll
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\bin\Debug\net5.0\WebApplicationMVC.Views.pdb
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.AssemblyReference.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.AssemblyInfoInputs.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.AssemblyInfo.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.CoreCompileInputs.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorAssemblyInfo.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorAssemblyInfo.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\staticwebassets\WebApplicationMVC.StaticWebAssets.Manifest.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\staticwebassets\WebApplicationMVC.StaticWebAssets.xml
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\scopedcss\bundle\WebApplicationMVC.styles.css
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.TagHelpers.input.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.TagHelpers.output.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorCoreGenerate.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorTargetAssemblyInfo.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.RazorTargetAssemblyInfo.cs
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.Views.pdb
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.dll
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\ref\WebApplicationMVC.dll
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.pdb
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.genruntimeconfig.cache
+D:\ETG_training1\ASP.net_Core\WebApplicationMVC\WebApplicationMVC\obj\Debug\net5.0\WebApplicationMVC.csproj.CopyComplete

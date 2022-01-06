@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTask", "MvcTask.csproj", "{AF65677A-ECB2-4E27-9B81-F7421DB4C718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF65677A-ECB2-4E27-9B81-F7421DB4C718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF65677A-ECB2-4E27-9B81-F7421DB4C718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF65677A-ECB2-4E27-9B81-F7421DB4C718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF65677A-ECB2-4E27-9B81-F7421DB4C718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8E83E63-D653-4B7E-848F-4F94883BF27A}
+	EndGlobalSection
+EndGlobal

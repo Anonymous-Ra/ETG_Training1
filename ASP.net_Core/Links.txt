@@ -1,0 +1,92 @@
+Day01
+https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/create
+
+ASP .Net Intro:
+[12:28 PM] Jebamalai Mary S
+https://www.youtube.com/playlist?list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy
+ASP.NET Core 101 - YouTube
+ASP.NET is an open source web framework, created by Microsoft, for building modern web apps and services with .NET. In this introductory video series, Scott ...
+
+
+Razor pages
+https://docs.microsoft.com/en-gb/aspnet/core/mvc/views/razor?view=aspnetcore-6.0
+
+HandsOn RazorPages:
+https://docs.microsoft.com/en-gb/learn/modules/create-razor-pages-aspnet-core/?view=aspnetcore-6.0
+
+
+MVC HandsOn:
+https://docs.microsoft.com/en-gb/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0&tabs=visual-studio
+
+MVC:
+https://www.youtube.com/watch?v=f72ookCWhsQ&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=15
+
+Day02:
+https://docs.microsoft.com/en-gb/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-6.0&tabs=visual-studio
+
+https://lms.sonata-software.com/course/view.php?id=14s
+
+Day03
+Dependency Injection
+https://docs.microsoft.com/en-gb/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-6.0
+
+Styling Razor Page
+https://www.youtube.com/watch?v=9lJF47kFRcU&list=RDCMUCvtT19MZW8dq5Wwfu6B0oxw&index=5
+
+Debugging
+https://www.youtube.com/watch?v=feWeInify18&list=RDCMUCvtT19MZW8dq5Wwfu6B0oxw&index=4
+
+Adding a service
+https://www.youtube.com/watch?v=KZxTOCuTuc0&list=RDCMUCvtT19MZW8dq5Wwfu6B0oxw&index=3
+
+Static Files Configuration
+https://docs.microsoft.com/en-gb/aspnet/core/fundamentals/static-files?view=aspnetcore-5.0
+
+Routing Configuration
+https://docs.microsoft.com/en-gb/aspnet/core/fundamentals/routing?view=aspnetcore-5.0
+
+Hands On-
+https://docs.microsoft.com/en-gb/aspnet/core/data/ef-mvc/?view=aspnetcore-5.0
+ASP.NET Core MVC with EF Core - tutorial series
+
+
+Day04
+
+Session and state management
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-5.0
+
+Form Tag Helper
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=aspnetcore-5.0#the-form-tag-helper
+
+Partial Tag Helper
+https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/built-in/partial-tag-helper?view=aspnetcore-5.0
+
+Case Study Type HandsON
+https://www.learnrazorpages.com/razor-pages/tutorial/bakery/
+
+
+Filters
+https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0
+
+Area
+https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/areas?view=aspnetcore-5.0
+
+HandsOn Authentication
+https://docs.microsoft.com/en-us/learn/modules/secure-aspnet-core-identity/?view=aspnetcore-5.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
